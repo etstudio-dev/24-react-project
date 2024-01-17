@@ -1,4 +1,4 @@
-import button from './buttonStyling.jsx';
+import button from './CustomButton.jsx';
 
 export default function ProjectsSlidebar() {
     return (
