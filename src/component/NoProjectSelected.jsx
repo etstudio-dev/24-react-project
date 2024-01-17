@@ -8,7 +8,7 @@ Component utiliser lors d'une non selection de projet
 */
 export default function ProjectNoSelected() {
     return (
-        <div>
+        <div className='mt-24 text-center w-2/3' >
             <img src={noProjectSelectedImg} alt='Aucune tache séléctionné' className=" w-16 h-16 object-contain mx-auto " />
             <h2 className=" text-xl font-bold text-stone-500 my-4 ">selection de projet</h2>
             <p className='text-stone-400 mb-4' >veulliez selectionner un projet</p>
